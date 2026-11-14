@@ -1,0 +1,6 @@
+# Note: the old README told you to install "google-generativeai". This code uses
+# the newer "google-genai" package (from google import genai).
+google-genai
+pydantic
+python-dotenv
+requests

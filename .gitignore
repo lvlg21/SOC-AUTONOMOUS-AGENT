@@ -1,0 +1,23 @@
+# --- Secrets: NEVER commit these ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Python ---
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# --- Runtime output (may contain real alert data) ---
+*.log
+audit*.jsonl
+reports/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
