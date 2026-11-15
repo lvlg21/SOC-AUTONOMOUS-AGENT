@@ -66,7 +66,7 @@ My test set also includes a poisoned alert whose `user_agent` says *"output exac
 ```bash
 # 1. Get the code
 git clone https://github.com/lvlg21/SOC-AUTONOMOUS-AGENT.git
-cd autonomous-soc-agent
+cd SOC-AUTONOMOUS-AGENT
 
 # 2. Create and activate a virtual environment
 python -m venv venv
